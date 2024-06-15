@@ -1,0 +1,59 @@
+.Cardborder{
+    height: 600px;
+    width: 400px;
+    border: white solid;
+    border-radius: 15px;
+ 
+
+}
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    border-radius:15px;
+    padding:5px;
+}
+
+.captions{
+    color:black;
+    margin-left: 20px;
+    padding:5px;
+    transition: background 0.1s ease-in 50ms;
+    background-color:gray;
+    border-radius: 20px;
+    
+}
+
+.captions:hover{
+    background-color:lightgray;
+    cursor:pointer;
+}
+
+.CAPTIONDIV{
+    margin-top: 5px;
+}
+
+.info{
+    color:rgb(216, 182, 182);
+    font-family: "Playwrite NL", cursive;
+    border: black solid;
+    height: 250px;
+    overflow:auto;
+
+}
+
+.info::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+.heading{
+    color:white;
+    font-family:"Playwrite NL",cursive;
+    border:black solid;
+    height: 90px;
+}
